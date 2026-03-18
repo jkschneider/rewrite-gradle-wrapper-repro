@@ -1,0 +1,7 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.example.UpdateWrapper8x
+displayName: Update Gradle Wrapper to latest 8.x
+recipeList:
+  - org.openrewrite.gradle.UpdateGradleWrapper:
+      version: "8.x"

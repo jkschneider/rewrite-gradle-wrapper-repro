@@ -1,0 +1,12 @@
+plugins {
+    id 'org.openrewrite.rewrite' version '7.28.1'
+}
+
+repositories {
+    mavenCentral()
+}
+
+rewrite {
+    activeRecipe 'com.example.UpdateWrapper8x'
+    setExportDatatables(true)
+}
